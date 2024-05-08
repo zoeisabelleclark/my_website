@@ -1,0 +1,14 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    font-weight: 300;
+    font-size: 24;
+    max-width: 560;
+    margin-bottom: 30;
+    margin: 2em;
+}
