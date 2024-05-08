@@ -1,47 +1,23 @@
 import * as React from "react"
-import "../styles/global.css"
 import type { HeadFC, PageProps } from "gatsby"
 import { Link } from "gatsby"
-import "../styles/styles.css"
 import Nav from "./nav"
-
-
-const docLinks = [
-  {
-    text: "TypeScript Documentation",
-    url: "https://www.gatsbyjs.com/docs/how-to/custom-configuration/typescript/",
-    color: "#8954A8",
-  },
-  {
-    text: "GraphQL Typegen Documentation",
-    url: "https://www.gatsbyjs.com/docs/how-to/local-development/graphql-typegen/",
-    color: "#8954A8",
-  }
-]
-
-const badgeStyle = {
-  color: "#fff",
-  backgroundColor: "#088413",
-  border: "1px solid #088413",
-  fontSize: 11,
-  fontWeight: "bold",
-  letterSpacing: 1,
-  borderRadius: 4,
-  padding: "4px 6px",
-  display: "inline-block",
-  position: "relative" as "relative",
-  top: -2,
-  marginLeft: 10,
-  lineHeight: 1,
-}
+import "../styles/global.css"
+import "../styles/styles.css"
 
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
-    <main >
+    <main>
       <Nav></Nav>
-      <h1 className="text-3xl font-bold underline">Hi! I'm Zoë</h1>
-
+      <br />
+      <div className="grid grid-cols-2 gap-2">
+        <div className="">
+          <p>Hi! I'm Zoë :)</p>
+          <br />
+          <p>I am first and foremost a philosopher — I have both the degree and the habit of questioning everything to prove it! These days I work as a software developer focusing on building an ESG data platform at a financial services firm. </p>
+        </div>
+      </div>
     </main>
   )
 }
