@@ -1,4 +1,5 @@
 import * as React from "react"
+import "../styles/global.css"
 import type { HeadFC, PageProps } from "gatsby"
 import { Link } from "gatsby"
 import "../styles/styles.css"
@@ -39,7 +40,7 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <main >
       <Nav></Nav>
-      <h1 >Hi! I'm Zoë</h1>
+      <h1 className="text-3xl font-bold underline">Hi! I'm Zoë</h1>
 
     </main>
   )
