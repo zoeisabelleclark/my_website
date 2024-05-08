@@ -9,7 +9,7 @@ const Nav = () => {
     }
 
     return (
-        <header className='grid grid-cols-3 gap-2'>
+        <header className='grid grid-cols-3 gap-1'>
             <div className="py-4 px-2 lg:mx-4 xl:mx-12 ">
                 <div>
                     <nav className="flex items-center justify-between flex-wrap  ">
@@ -32,6 +32,10 @@ const Nav = () => {
                                 <Link to="/projects"
                                     className="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-lime-600 mx-2 focus:text-lime-600  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                     PROJECTS
+                                </Link>
+                                <Link to="/shouldKnow"
+                                    className="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-lime-600 mx-2 focus:text-lime-600  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
+                                    YSK
                                 </Link>
                             </div>
                         </div>
