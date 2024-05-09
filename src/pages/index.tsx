@@ -25,7 +25,7 @@ const IndexPage: React.FC<PageProps> = () => {
           <ul className="text">
             <li>the colour green</li>
             <li>tricky puzzles</li>
-            <li>the power of ESG initiatives to funnel money from the worlds financial institutions towards making the world a better place (and generating sustainable income while doing it!)</li>
+            <li>the power of ESG initiatives to funnel money from financial institutions towards making the world a better place (and generating sustainable income while doing it!)</li>
             <li></li>
           </ul>
         </div>
