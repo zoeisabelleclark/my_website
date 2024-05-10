@@ -32,6 +32,7 @@ const IndexPage: React.FC<PageProps> = () => {
           <p className="text bold">Not such a fan of:</p>
           <ul className="text">
             <li>'neutral' colours</li>
+            <li>lack of standards in ESG reporting</li>
             <li>my code - when it isn't working</li>
           </ul>
         </div>
