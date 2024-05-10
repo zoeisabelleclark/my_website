@@ -43,7 +43,7 @@ const Nav = () => {
                 </div>
             </div>
             <div className='header'>
-                <h2 className='hidden lg:block'>Zoe Isabelle Clark</h2>
+                <h2 className='hidden lg:block'>Zoë Isabelle Clark</h2>
                 <h2 className='lg:hidden sm:text-left'>Zoe</h2>
             </div>
         </header>

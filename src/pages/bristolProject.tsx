@@ -1,10 +1,9 @@
 import * as React from 'react'
-import Nav from "../nav"
-import { Link } from 'gatsby'
+import Nav from "./nav"
 import { StaticImage } from "gatsby-plugin-image"
+import Footer from "./footer"
 
 
-// Step 2: Define your component
 const BristolProject = () => {
     return (
         <main>
@@ -18,12 +17,12 @@ const BristolProject = () => {
                             <StaticImage
                                 alt="gallery"
                                 className="block h-full w-full rounded-lg object-cover object-center"
-                                src="../../images/personalities_fish.png"></StaticImage>
+                                src="../images/personalities_fish.png"></StaticImage>
                         </div>
                         <div className="w-1/2 p-1 md:p-2">
                             <p>I used RFID readers wired to a raspberryPi to build an interactive deep-sea disco themed play mat.</p>
                             <br />
-                            <p>Children could use small sea creatures (with RFID tags sewn inside) to make music together on the mat</p>
+                            <p>Children could use small sea creatures (with RFID tags sewn inside) to make music together on the mat.</p>
                             <br />
 
                         </div>
@@ -31,7 +30,7 @@ const BristolProject = () => {
                             <StaticImage
                                 alt="gallery"
                                 className="block h-full w-full rounded-lg object-cover object-center"
-                                src="../../images/mat.jpg"></StaticImage>
+                                src="../images/mat.jpg"></StaticImage>
                         </div>
                     </div>
                     <div className="flex w-1/2 flex-wrap">
@@ -39,24 +38,24 @@ const BristolProject = () => {
                             <StaticImage
                                 alt="gallery"
                                 className="block h-full w-full rounded-lg object-cover object-center"
-                                src="../../images/matUncovered.jpg"></StaticImage>
+                                src="../images/matUncovered.jpg"></StaticImage>
                         </div>
                         <div className="w-1/2 p-1 md:p-2">
                             <StaticImage
                                 alt="gallery"
                                 className="block h-full w-full rounded-lg object-cover object-center"
-                                src="../../images/mycircuitdiagram.png"></StaticImage>
+                                src="../images/mycircuitdiagram.png"></StaticImage>
                         </div>
                         <div className="w-1/2 p-1 md:p-2">
-                            <p>Each creature had a personality which we used to get the children thinking about what each creature (or child) might enjoy when playing</p>
+                            <p>Each creature had a personality which we used to get the children thinking about what each creature (or child) might enjoy when playing.</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </main>
     )
 }
 
 export const Head = () => <title>Bristol Project</title>
-// Step 3: Export your component
 export default BristolProject

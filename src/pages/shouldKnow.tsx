@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Nav from "./nav"
+import Footer from './footer'
 
 
 // Step 2: Define your component
@@ -9,7 +10,7 @@ const ShouldKnow = () => {
             <Nav></Nav>
             <div className="relative">
                 <div className="sticky top-0 h-screen flex flex-col  bg-lime-300">
-                    <h2 className="text-4xl">YOU SHOULD KNOW</h2>
+                    <h2 className="text-4xl mt-2">YOU SHOULD KNOW</h2>
                     <p>Scroll Down</p>
                 </div>
                 <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-lime-500 text-white">
@@ -24,6 +25,7 @@ const ShouldKnow = () => {
                     <h2 className="text-4xl">The Fourth Title</h2>
                 </div>
             </div>
+            <Footer></Footer>
         </main>
     )
 }
