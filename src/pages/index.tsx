@@ -13,11 +13,11 @@ const IndexPage: React.FC<PageProps> = () => {
     <main className="main-content">
       <Nav></Nav>
       <br />
-      <div className="grid grid-cols-7">
+      <div className="grid grid-cols-1 sm:grid-cols-7">
         <div className=""></div>
-        <div className="col-span-2">
+        <div className="sm:col-span-2">
           <br />
-          <h2 className="text">Hi! I'm Zoë :)</h2>
+          <h2 className="text sm:text-center">Hi! I'm Zoë :)</h2>
           <br />
           <p className="text">I am first and foremost a philosopher — I have both the degree and the habit of questioning everything to prove it! These days I work as a software developer building an ESG data platform for a financial services firm. </p>
           <br />
@@ -37,7 +37,7 @@ const IndexPage: React.FC<PageProps> = () => {
           </ul>
         </div>
         <div></div>
-        <div className="col-span-2">
+        <div className="sm:col-span-2">
           <StaticImage src="../images/me2.JPG" alt="" placeholder="blurred" layout="fixed" width={300} height={300} className="rounded-full imageMe"></StaticImage>
           <div className="box">
             <div className="shape">

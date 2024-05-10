@@ -11,16 +11,8 @@ const Work = () => {
             <Nav></Nav>
             <br />
             <h1 className="text-3xl text-center font-bold">BAILLIE GIFFORD</h1>
-            <span className='grid-cols-4'>
-                <div className=''></div>
-                <StaticImage
-                    src="../images/Baillie+Gifford+Logo.png"
-                    width={600}
-                    alt="company logo"
-                    className='cols-span-2 center'
-                ></StaticImage></span>
             <div className=''></div>
-            <h2 className='text-2xl text-center font-bold'> Unfortunately I can't explain too much about all the things I do at work but I promise they are mostly cool and interesting</h2>
+            <h2 className='md:text-2xl text-center font-bold ml-auto mr-auto'> Unfortunately I can't explain too much about all the things I do at work but I promise they are mostly cool and interesting</h2>
             <Footer></Footer>
         </main >
     )
