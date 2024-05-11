@@ -9,8 +9,8 @@ const Nav = () => {
     }
 
     return (
-        <header className='grid grid-cols-3 gap-1'>
-            <div className="py-4 px-2 lg:mx-4 xl:mx-12 ">
+        <header className='grid grid-cols-2 md:grid-cols-7'>
+            <div className="py-4 px-2 lg:mx-4 xl:mx-12 col-span-1 md:col-span-3">
                 <div>
                     <nav className="flex items-center justify-between flex-wrap  ">
                         <div className="block lg:hidden" onClick={handleClick}>
@@ -33,7 +33,11 @@ const Nav = () => {
                                     className="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-lime-600 mx-2 focus:text-lime-600  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                     PROJECTS
                                 </Link>
-                                <Link to="/shouldKnow"
+                                <Link to="/interests"
+                                    className="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-lime-600 mx-2 focus:text-lime-600  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
+                                    INTERESTS
+                                </Link>
+                                <Link to="/letsTalkAbout"
                                     className="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-lime-600 mx-2 focus:text-lime-600  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                     LTA
                                 </Link>
@@ -42,9 +46,9 @@ const Nav = () => {
                     </nav>
                 </div>
             </div>
-            <div className='header'>
-                <h2 className='hidden lg:block'>Zoë Isabelle Clark</h2>
-                <h2 className='lg:hidden sm:text-left'>Zoe</h2>
+            <div className='header md:col-span-3'>
+                <h2 className='hidden md:block'>Zoë Isabelle Clark</h2>
+                <h2 className=' md:hidden'>Zoe</h2>
             </div>
         </header>
     )
