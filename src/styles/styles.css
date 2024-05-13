@@ -10,8 +10,10 @@
 
 main {
     color: "#232129";
-    padding: 2rem;
     font-family: "Poppins";
+    width: 100%;
+    position: relative;
+    z-index: 1;
 }
 
 
@@ -59,6 +61,8 @@ a {
     z-index: 1;
 }
 
+
+
 /* Shape styles */
 
 .box {
@@ -92,14 +96,7 @@ a {
     border-top-left-radius: 119px;
 }
 
-.main-content {
-    position: relative;
-    z-index: 1;
-}
-
-.bold {
-    font-weight: bold;
-}
+/* End of shape styles */
 
 .center {
     display: block;
