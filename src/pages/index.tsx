@@ -1,7 +1,6 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { Link } from "gatsby"
 import Nav from "./nav"
 import Footer from "./footer"
 import "../styles/global.css"
@@ -35,6 +34,7 @@ const IndexPage: React.FC<PageProps> = () => {
               <li>my code - when it isn't working</li>
             </ul>
           </div>
+          <div></div>
 
           <div className="sm:col-span-2">
             <StaticImage src="../images/me2.JPG" alt="" placeholder="blurred" layout="fixed" width={300} height={300} className="rounded-full imageMe"></StaticImage>
