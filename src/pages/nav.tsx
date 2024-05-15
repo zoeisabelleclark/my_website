@@ -33,10 +33,10 @@ const Nav = () => {
                                     className="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-lime-600 mx-2 focus:text-lime-600  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                     PROJECTS
                                 </Link>
-                                <Link to="/interests"
+                                {/* <Link to="/interests"
                                     className="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-lime-600 mx-2 focus:text-lime-600  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                     INTERESTS
-                                </Link>
+                                </Link> */}
                                 <Link to="/letsTalkAbout"
                                     className="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-lime-600 mx-2 focus:text-lime-600  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                     LTA
@@ -48,7 +48,7 @@ const Nav = () => {
             </div>
             <div className='header md:col-span-3'>
                 <h2 className='hidden md:block'>Zoë Isabelle Clark</h2>
-                <h2 className=' md:hidden'>Zoe</h2>
+                <h2 className=' md:hidden'>Zoë</h2>
             </div>
         </header>
     )

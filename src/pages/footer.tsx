@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 const Footer = () => {
     return (
         <footer className="bg-white fixed bottom-0 w-screen z-40">
-            <div className="container px-6 py-8 mx-auto fixed bottom-0 w-screen bg-white">
+            <div className="container px-6 py-8 mx-auto fixed bottom-0 w-screen md:pl-20 bg-white lg:pl-40">
                 {/* <hr className="my-10 border-gray-200 dark:border-gray-700" /> */}
 
                 <div className="flex flex-col items-center sm:flex-row sm:justify-between">

@@ -12,7 +12,7 @@ const LetsTalkAbout = () => {
             <Nav></Nav>
             <br />
             <h1 className="text-3xl text-center font-bold">LETS TALK ABOUT</h1>
-            <article className="flex bg-white transition hover:shadow-xl">
+            <article className="flex bg-white transition hover:shadow-xl m-10">
                 <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
                     <time
                         dateTime="2022-10-10"
@@ -40,15 +40,14 @@ const LetsTalkAbout = () => {
                         </Link>
 
                         <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
-                            There are no standardised regulations for reporting ESG data. This means that depending on where you get your data from and how the provider chooses to calculate it there can be major inconsistencies in ESG scores and ratings given to companies. Money can't get to the companies who are really doing the good work if the information given to investors is all skew-whiff.
+                            There are no standardised regulations for reporting ESG data. This means that depending on where you get your data from and how the provider chooses to calculate it, there can be major inconsistencies in the ESG scores and ratings given to companies. Money can't get to the companies who are really doing the good work if the information given to investors is all skew-whiff.
                         </p>
                     </div>
 
                     <div className="sm:flex sm:items-end sm:justify-end">
-                        <Link to='/blogPosts/ESGdata'
-                            className="block bg-lime-500 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-lime-600">
-                            Read Blog
-                        </Link>
+                        <p className="block bg-yellow-400 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-lime-600">
+                            In progress!
+                        </p>
                     </div>
                 </div>
             </article>

@@ -24,7 +24,7 @@ const IndexPage: React.FC<PageProps> = () => {
             <ul className="text">
               <li>the colour green</li>
               <li>tricky puzzles</li>
-              <li>the power of ESG initiatives to funnel money from financial institutions towards making the world a better place (and generating sustainable income while doing it!)</li>
+              <li>the power everyday people have to make the world a better place by using: our tools (like technology), problem solving and working together</li>
               <li>my code - when it's working</li>
             </ul>
             <br />
@@ -35,7 +35,7 @@ const IndexPage: React.FC<PageProps> = () => {
               <li>my code - when it isn't working</li>
             </ul>
           </div>
-          <div></div>
+
           <div className="sm:col-span-2">
             <StaticImage src="../images/me2.JPG" alt="" placeholder="blurred" layout="fixed" width={300} height={300} className="rounded-full imageMe"></StaticImage>
             <div className="box hidden xl:block">
@@ -44,13 +44,14 @@ const IndexPage: React.FC<PageProps> = () => {
               </div>
             </div>
           </div>
+          <div className="md:hidden"><br /><br /><br /><br /></div>
         </div>
       </div>
       <br />
       <br className="mt-20" />
       <div className="footer w-full bg-white z-40">
         <Footer></Footer></div>
-    </main>
+    </main >
   )
 }
 
