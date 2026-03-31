@@ -1,3 +1,50 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+@layer components {
+    .ui-card {
+        @apply bg-bg-elevated border border-border rounded-md shadow-card;
+    }
+
+    .ui-label {
+        @apply inline-block px-2 py-1 text-xs uppercase tracking-label rounded-xs border border-border bg-bg-elevated text-text-secondary;
+    }
+
+    .ui-label-accent {
+        @apply border-accent text-accent;
+    }
+
+    .ui-heading {
+        @apply font-display tracking-tightish text-text;
+    }
+}
+
+
+@layer base {
+    html {
+        @apply bg-bg text-text;
+    }
+
+    body {
+        @apply bg-bg text-text font-sans antialiased;
+    }
+
+    ::selection {
+        @apply bg-accent-green/15 text-text;
+    }
+}
+
+@layer utilities {
+    .fx-rule {
+        @apply border-t border-border;
+    }
+
+    .fx-label-row {
+        @apply flex items-center justify-between border-b border-border pb-3;
+    }
+
+    .fx-index {
+        @apply text-[11px] uppercase tracking-label text-text-muted;
+    }
+}
