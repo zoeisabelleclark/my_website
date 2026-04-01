@@ -2,54 +2,90 @@ import React from "react";
 import { SiteFrame } from "../components/ui/SiteFrame";
 import { Section } from "../components/ui/Section";
 import { Stack } from "../components/ui/Stack";
-import { Card } from "../components/ui/Card";
-import { Badge } from "../components/ui/Badge";
 import { Heading } from "../components/ui/Heading";
-import { Button } from "../components/ui/Button";
+import { Badge } from "../components/ui/Badge";
 import { TextLink } from "../components/ui/TextLink";
 
 export default function ContactPage() {
+    const links = [
+        {
+            label: "Substack",
+            href: "https://substack.com/@zoeisabelleclark?utm_campaign=profile&utm_medium=profile-page",
+            description: "Generally long form writing about language, politics, philosophy, tech, and more.",
+        },
+        {
+            label: "GitHub",
+            href: "https://github.com/zoeisabelleclark",
+            description: "Code, experiments, and front-end work.",
+        },
+        {
+            label: "YouTube",
+            href: "https://www.youtube.com/@zoeisabelleclark",
+            description: "Talks, walkthroughs, and visual explorations, generally focusing on philosophical concepts.",
+        },
+        {
+            label: "Instagram",
+            href: "https://www.instagram.com/zoeisabelleclark/",
+            description: "Travels and day-to-day life",
+        },
+        {
+            label: "LinkedIn",
+            href: "https://www.linkedin.com/in/zoeclark014/",
+            description: "More strictly professional content - generally reposts from things shared elsewhere!",
+        },
+    ];
+
     return (
         <SiteFrame>
             <Section narrow>
                 <Stack space="lg">
                     <Badge variant="accent">Contact</Badge>
                     <Heading as="h1" size="lg" offset>
-                        Let’s talk about roles, projects, or collaborations.
+                        Links & presence
                     </Heading>
-                    <p className="max-w-2xl text-text-secondary">
-                        Available for full-time roles, freelance projects, and conversations around design systems,
-                        front-end implementation, and portfolio presentation.
+                    <p className="max-w-xl text-text-secondary">
+                        A small collection of places where I publish, build, and share work. I'm fairly active on all of these platforms and will respond to comments and messages so do feel free to get in touch!
                     </p>
                 </Stack>
             </Section>
 
             <Section narrow divider>
-                <Card>
-                    <Stack space="lg">
-                        <div className="flex items-center justify-between border-b border-border pb-3">
-                            <span className="text-xs uppercase tracking-label text-text-muted">Details</span>
-                            <span className="text-xs text-accent-green">Contact / 01</span>
-                        </div>
+                <Stack space="0" className="border-b border-border">
+                    {links.map((link, i) => (
+                        <div key={link.label} className="border-t border-border py-5">
+                            <div className="grid grid-cols-12 gap-4 items-start">
 
-                        <Stack space="sm">
-                            <div className="text-sm text-text-muted">Email</div>
-                            <TextLink href="mailto:hello@example.com">hello@example.com</TextLink>
-                        </Stack>
+                                {/* index */}
+                                <div className="col-span-1">
+                                    <div className="text-[11px] uppercase tracking-label text-text-muted">
+                                        {String(i + 1).padStart(2, "0")}
+                                    </div>
+                                </div>
 
-                        <Stack space="sm">
-                            <div className="text-sm text-text-muted">Elsewhere</div>
-                            <div className="flex flex-wrap gap-4">
-                                <TextLink href="https://www.linkedin.com/">LinkedIn</TextLink>
-                                <TextLink href="https://github.com/">GitHub</TextLink>
+                                {/* platform */}
+                                <div className="col-span-4">
+                                    <Heading as="h2" size="sm">
+                                        {link.label}
+                                    </Heading>
+                                </div>
+
+                                {/* description */}
+                                <div className="col-span-5">
+                                    <p className="text-sm text-text-secondary">
+                                        {link.description}
+                                    </p>
+                                </div>
+
+                                {/* link */}
+                                <div className="col-span-2">
+                                    <TextLink href={link.href} target="_blank"
+                                        rel="noopener noreferrer">Open</TextLink>
+                                </div>
+
                             </div>
-                        </Stack>
-
-                        <div className="pt-2">
-                            <Button as="a" href="mailto:hello@example.com">Start a conversation</Button>
                         </div>
-                    </Stack>
-                </Card>
+                    ))}
+                </Stack>
             </Section>
         </SiteFrame>
     );

@@ -59,6 +59,17 @@ const roles = [
             "Specialised in the combination of philosophy of mind and metaphysics."
         ],
     },
+    {
+        company: "Exploration Society",
+        title: "Outdoor Education Leader",
+        period: "2016 — 2019",
+        bullets: [
+            "Teaching children outdoor skills like bushcraft, sailing, climbing, canoeing etc.",
+            "Acted under pressure in difficult situations e.g. first aid responding or managing danger.",
+            "Managed trip logistics and navigated hundreds of children through major cities on public transport.",
+            "Coordinated with teachers and parents and supported children pastorally when away on weeklong trips.",
+        ],
+    },
 ];
 
 export default function ExperiencePage() {
@@ -68,7 +79,7 @@ export default function ExperiencePage() {
                 <SectionIntro
                     label="Experience"
                     title="Roles and responsibilities."
-                    intro="A concise overview of positions across industry and academia."
+                    intro="An overview of roles I have had across industry and academia."
                 />
             </Section>
 
