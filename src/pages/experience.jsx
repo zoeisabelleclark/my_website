@@ -25,7 +25,7 @@ const roles = [
         period: "2023 — 2026",
         bullets: [
             "Delivered solo research reports on technical topics e.g. epistemic phrase usage in LLMs and quantum computing.",
-            "Reviewed internal business strategy and processes and assessed their efficacy or potential in relation to emerging technologies.",
+            "Reviewed internal business strategy and processes and assessed their efficacy and potential in relation to emerging technologies.",
             "Developed prod and POC applications in Python, Angular, C# and more.",
         ],
     },
@@ -46,7 +46,9 @@ const roles = [
         bullets: [
             "Awarded prize for the best thesis research project – later published an academic paper from this thesis.",
             "Thesis research in the field of HCI: co-designing technology with neurodivergent children.",
-            "Awarded a Bristol Masters Scholarship.",
+            "See here for published academic work:",
+            "https://orcid.org/0000-0003-1450-4157",
+
         ],
     },
     {

@@ -9,15 +9,17 @@ import { Heading } from "../components/ui/Heading";
 import { Button } from "../components/ui/Button";
 import { TextLink } from "../components/ui/TextLink";
 import heroImage from "../images/me2.jpg";
+import escherImage from "../images/Hand_with_Reflecting_Sphere.jpg";
 
 export default function HomePage() {
     return (
         <SiteFrame>
             <Section>
                 <Grid cols="default" gap="lg" className="items-end">
+
                     <div className="md:col-span-7">
                         <Stack space="lg">
-                            <Badge variant="accent">Writer / Researcher / Strategist</Badge>
+                            <Badge >Writer / Researcher / Strategist</Badge>
                             <Heading as="h1" size="xl" offset className="max-w-4xl">
                                 Seeing the connections in everything.
                             </Heading>
@@ -25,21 +27,25 @@ export default function HomePage() {
                                 400 years ago Leibniz wrote that reality cannot be understood except through the interconnection of all things.
                             </p>
                             <p className="max-w-2xl text-lg text-text-secondary">
-                                I've found this to be true in practice. My work and experiences have led me to see the connections across disciplines – language, technology, politics, and culture – and that the best way to approach each, is not in isolation, but as part of a wider system.
+                                I've found this to be true in practice. My work and experiences have led me to see the connections across disciplines – language, technology, politics, and culture. I believe that the best way to approach each, is not in isolation, but as part of a wider system.
                             </p>
-                            <div className="flex flex-wrap gap-3">
-                                <Button as="a" href="/projects">
-                                    View Projects
-                                </Button>
-                                <Button as="a" href="/experience" variant="secondary">
-                                    Experience
-                                </Button>
-                            </div>
+
                         </Stack>
                     </div>
 
                     <div className="md:col-span-5">
+                        <div className="relative">
+                            <img
+                                src={escherImage}
+                                alt="Portrait"
+                                className="w-full h-[420px] object-cover object-[center_20%] rounded-sm"
+                            />
 
+                            {/* caption */}
+                            <div className="absolute top-3 right-3 text-[11px] uppercase tracking-label text-text-light">
+                                Escher - Hand with Reflecting Sphere
+                            </div>
+                        </div>
                     </div>
                 </Grid>
             </Section>
@@ -56,13 +62,13 @@ export default function HomePage() {
                         ],
                         [
                             "Experience",
-                            "Role history, scope, teams, and measurable impact.",
+                            "What things have I done in the past.",
                             "/experience",
                         ],
                         [
-                            "About",
-                            "Approach, interests, and what shapes the work.",
-                            "/about",
+                            "Contact",
+                            "See the other places I'm sharing work an get in touch!",
+                            "/contact",
                         ],
                     ].map(([title, copy, href], i) => (
                         <Card key={title}>
@@ -105,17 +111,16 @@ export default function HomePage() {
                     </div>
 
                     <div className="md:col-span-6">
-                        <div className="relative overflow-hidden rounded-sm border border-border bg-bg-elevated p-4 md:p-6">
-                            <div className="flex min-h-[320px] items-center justify-center border border-border-strong rounded-xs bg-bg">
-                                <img
-                                    src={heroImage}
-                                    alt="Visual or project preview"
-                                    className="w-full h-[320px] object-cover object-[center_20%] rounded-xs"
-                                />
-                            </div>
+                        <div className="relative">
+                            <img
+                                src={heroImage}
+                                alt="Portrait"
+                                className="w-full h-[420px] object-cover object-[center_20%] rounded-sm"
+                            />
 
-                            <div className="pointer-events-none absolute left-4 top-4 text-[11px] uppercase tracking-label text-accent-green">
-
+                            {/* subtle index label */}
+                            <div className="absolute bottom-3 left-3 text-[11px] uppercase tracking-label text-accent-green">
+                                01
                             </div>
                         </div>
                     </div>

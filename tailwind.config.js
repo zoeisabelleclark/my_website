@@ -16,6 +16,7 @@ module.exports = {
           DEFAULT: "#15181B",
           secondary: "#2B3136",
           muted: "#5B646B",
+          light: "#ffffff"
         },
         border: {
           DEFAULT: "#A9B1AF",
