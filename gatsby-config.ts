@@ -23,6 +23,16 @@ const config: GatsbyConfig = {
         "path": "./src/pages/"
       },
       __key: "pages"
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Archivo:400,500,600,700`,
+          `Sora:400,500,600,700`,
+        ],
+        display: 'swap',
+      },
     }]
 };
 

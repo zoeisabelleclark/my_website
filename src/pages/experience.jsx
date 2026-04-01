@@ -10,23 +10,53 @@ import { SectionIntro } from "../components/ui/SectionIntro";
 
 const roles = [
     {
-        company: "Studio / Company Name",
-        title: "Senior Product Designer",
-        period: "2023 — Present",
+        company: "the Fifth Wave Institute",
+        title: " Freelance Contributor",
+        period: "2026 - present",
         bullets: [
-            "Led end-to-end design across web product and marketing surfaces.",
-            "Built reusable interface patterns and improved design-development handoff.",
-            "Introduced stronger content hierarchy and accessibility checks.",
+            "Authored commissioned article on the role of technology in care",
+            "Conducted independed research and produced analytical content for publication",
+            "Engaged with editorial feedback to refine and publish work.",
         ],
     },
     {
-        company: "Previous Company",
-        title: "Designer / Front-end Developer",
-        period: "2020 — 2023",
+        company: "Baillie Gifford (Asset Management)",
+        title: "Software Developer / Researcher ",
+        period: "2023 — 2026",
         bullets: [
-            "Designed and implemented campaign pages and content systems.",
-            "Created component libraries for consistency across projects.",
-            "Worked closely with content, engineering, and brand stakeholders.",
+            "Delivered solo research reports on technical topics e.g. epistemic phrase usage in LLMs and quantum computing.",
+            "Reviewed internal business strategy and processes and assessed their efficacy or potential in relation to emerging technologies.",
+            "Developed prod and POC applications in Python, Angular, C# and more.",
+        ],
+    },
+    {
+        company: "EHFM / SAM radio ",
+        title: "Radio Host",
+        period: "2024 — 2026",
+        bullets: [
+            "Presented live and pre-recorded shows, highlighting music from around the world.",
+            "Edited audio content and scripted sections.",
+            "https://www.ehfm.live/residents/curiosities",
+        ],
+    },
+    {
+        company: "Bristol University ",
+        title: "MSc Computer Science",
+        period: "2022 — 2023",
+        bullets: [
+            "Awarded prize for the best thesis research project – later published an academic paper from this thesis.",
+            "Thesis research in the field of HCI: co-designing technology with neurodivergent children.",
+            "Awarded a Bristol Masters Scholarship.",
+        ],
+    },
+    {
+        company: "Edinburgh University",
+        title: "MA Philosophy",
+        period: "2018 — 2022",
+        bullets: [
+            "Awarded the Church of Scotland Memorial Prize for academic performance",
+            "Awarded an Edinburgh Award for Leadership in Student Opportunities for my work as a peer-assisted learning tutor",
+            "Specialised in the combination of philosophy of mind and metaphysics."
         ],
     },
 ];
@@ -37,8 +67,8 @@ export default function ExperiencePage() {
             <Section>
                 <SectionIntro
                     label="Experience"
-                    title="Roles, responsibilities, and impact"
-                    intro="A concise chronology of positions, cross-functional scope, and the kind of work delivered."
+                    title="Roles and responsibilities."
+                    intro="A concise overview of positions across industry and academia."
                 />
             </Section>
 
@@ -62,11 +92,26 @@ export default function ExperiencePage() {
                                         </div>
 
                                         <ul className="space-y-2 text-sm text-text-secondary">
-                                            {role.bullets.map((bullet) => (
-                                                <li key={bullet} className="border-l border-border pl-3">
-                                                    {bullet}
-                                                </li>
-                                            ))}
+                                            {role.bullets.map((bullet) => {
+                                                const isLink = bullet.startsWith("http");
+
+                                                return (
+                                                    <li key={bullet} className="border-l border-border pl-3">
+                                                        {isLink ? (
+                                                            <a
+                                                                href={bullet}
+                                                                target="_blank"
+                                                                rel="noopener noreferrer"
+                                                                className="underline decoration-border underline-offset-4 hover:text-accent-blue hover:decoration-accent-green"
+                                                            >
+                                                                {bullet}
+                                                            </a>
+                                                        ) : (
+                                                            bullet
+                                                        )}
+                                                    </li>
+                                                );
+                                            })}
                                         </ul>
                                     </Stack>
                                 </div>

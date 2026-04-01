@@ -8,46 +8,46 @@ module.exports = {
     extend: {
       colors: {
         bg: {
-          DEFAULT: "#F6F7F2",
-          elevated: "#EEF1EA",
-          subtle: "#DCE3D7",
+          DEFAULT: "#F3F1EA",
+          elevated: "#E4E0D4",
+          subtle: "#D6D1C3",
         },
         text: {
-          DEFAULT: "#111418",
-          secondary: "#3E4A46",
-          muted: "#6D7874",
+          DEFAULT: "#15181B",
+          secondary: "#2B3136",
+          muted: "#5B646B",
         },
         border: {
-          DEFAULT: "#C7D0C6",
-          strong: "#AEBBB1",
+          DEFAULT: "#A9B1AF",
+          strong: "#7E8987",
         },
         accent: {
-          blue: "#3B6EA8",
-          "blue-soft": "#6F98C2",
-          green: "#2F6B57",
-          "green-soft": "#6E9783",
+          blue: "#2F5F8F",
+          "blue-soft": "#5E83A8",
+          green: "#2E5A46",
+          "green-soft": "#5F7E6F",
         },
       },
       fontFamily: {
-        sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
-        display: ["Space Grotesk", "Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+        sans: ["Archivo", "ui-sans-serif", "system-ui", "sans-serif"],
+        display: ["Sora", "Archivo", "ui-sans-serif", "system-ui", "sans-serif"],
       },
       boxShadow: {
-        subtle: "0 1px 0 rgba(17,20,24,0.04)",
+        subtle: "0 1px 0 rgba(21,24,27,0.06)",
       },
       borderRadius: {
         xs: "2px",
-        sm: "4px",
-        md: "8px",
+        sm: "3px",
+        md: "6px",
       },
       letterSpacing: {
-        label: "0.08em",
-        tightish: "-0.02em",
+        label: "0.1em",
+        tightish: "-0.025em",
       },
       outlineColor: {
-        accent: "#2F6B57",
+        accent: "#2E5A46",
       },
     },
-    plugins: [],
-  }
-}
+  },
+  plugins: [],
+};

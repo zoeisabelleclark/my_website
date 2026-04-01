@@ -16,12 +16,11 @@ export function SiteFrame({ children }) {
             <header className="sticky top-0 z-40 border-b border-border bg-bg/90 backdrop-blur">
                 <Container className="flex h-14 items-center justify-between">
                     <a href="/" className="font-display text-sm tracking-label text-text">
-                        ZOË ISABELLE CLARK
+                        ZOE ISABELLE CLARK
                     </a>
                     <nav className="flex gap-4 text-sm text-text-muted">
-                        <a href="/projects" className="hover:text-text">Projects</a>
+                        <a href="/projects" className="hover:text-text">WAIUT</a>
                         <a href="/experience" className="hover:text-text">Experience</a>
-                        <a href="/about" className="hover:text-text">About</a>
                         <a href="/contact" className="hover:text-text">Contact</a>
                     </nav>
                 </Container>

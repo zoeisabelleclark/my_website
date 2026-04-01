@@ -41,9 +41,9 @@ export default function ProjectsPage() {
         <SiteFrame>
             <Section>
                 <SectionIntro
-                    label="Projects"
-                    title="Selected work"
-                    intro="A concise collection of projects focused on product thinking, systems, visual structure, and implementation detail."
+                    label="WAIUT"
+                    title="What am I up to?"
+                    intro="I'm currently travelling around the Caucasus and Central Asia "
                 />
             </Section>
 
