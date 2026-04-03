@@ -19,7 +19,7 @@ export function SiteFrame({ children }) {
                         ZOE ISABELLE CLARK
                     </a>
                     <nav className="flex gap-4 text-sm text-text-muted">
-                        <a href="/projects" className="hover:text-text">WAIUT</a>
+                        <a href="/waiut" className="hover:text-text">WAIUT</a>
                         <a href="/experience" className="hover:text-text">Experience</a>
                         <a href="/contact" className="hover:text-text">Contact</a>
                     </nav>
