@@ -6,9 +6,8 @@ import { Stack } from "../components/ui/Stack";
 import { Card } from "../components/ui/Card";
 import { Badge } from "../components/ui/Badge";
 import { Heading } from "../components/ui/Heading";
-import { Button } from "../components/ui/Button";
 import { TextLink } from "../components/ui/TextLink";
-import heroImage from "../images/me2.jpg";
+import heroImage from "../images/me2.JPG";
 import escherImage from "../images/Hand_with_Reflecting_Sphere.jpg";
 
 export default function HomePage() {
