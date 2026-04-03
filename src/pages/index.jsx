@@ -7,7 +7,7 @@ import { Card } from "../components/ui/Card";
 import { Badge } from "../components/ui/Badge";
 import { Heading } from "../components/ui/Heading";
 import { TextLink } from "../components/ui/TextLink";
-import heroImage from "../images/me2.JPG";
+import heroImage from "../images/me2.jpeg";
 import escherImage from "../images/Hand_with_Reflecting_Sphere.jpg";
 
 export default function HomePage() {
