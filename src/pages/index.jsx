@@ -58,7 +58,7 @@ export default function HomePage() {
                         [
                             "What am I up to?",
                             "I'm currently on the move – travelling and learning. Check out what I'm up to here.",
-                            "/projects",
+                            "/waiut",
                         ],
                         [
                             "Experience",
