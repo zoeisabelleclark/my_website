@@ -131,7 +131,7 @@ export default function ProjectDetailTemplate() {
                                         The result is a site that reads like a strong CV and presents like a considered design artifact:
                                         calm, structured, memorable.
                                     </p>
-                                    <TextLink href="/projects">Back to all projects</TextLink>
+                                    <TextLink href="/waiut">Back to all projects</TextLink>
                                 </Stack>
                             </section>
                         </Stack>

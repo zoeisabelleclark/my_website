@@ -105,7 +105,7 @@ export default function HomePage() {
                                 My work so far has focused heavily on technology, but I'm increasingly drawn to questions of language, geopolitics, and lived experience, particularly in Central Asia.
                             </p>
                             <p className="max-w-2xl text-lg text-text-secondary">
-                                I'm interested in the space between disciplines, where abstract ideas meet the real world, and in building an understanding of the world that is analytical and grounded whilst still accounting for the wonder we see all around us.
+                                I'm interested in the space between disciplines and in building an understanding of the world that is both analytical and grounded whilst still accounting for the wonder we see.
                             </p>
                         </Stack>
                     </div>

@@ -42,14 +42,11 @@ export default function WaiutPage() {
                         <Stack space="lg">
                             <Badge>What am I up to?</Badge>
                             <Heading as="h1" size="xl" offset className="max-w-4xl">
-                                On the move, following language, geography, and ideas.
+                                On the move.
                             </Heading>
                             <p className="max-w-2xl text-lg text-text-secondary">
                                 In four weeks I’ll be leaving work to travel and then head to
-                                language school in Central Asia.
-                            </p>
-                            <p className="max-w-2xl text-lg text-text-secondary">
-                                This page is a log of what I’m doing, preparing for, and
+                                language school in Central Asia. This page is a log of what I’m doing, preparing for, and
                                 paying attention to.
                             </p>
                         </Stack>
@@ -233,10 +230,9 @@ export default function WaiutPage() {
                     </div>
 
                     <div className="md:col-span-8">
-                        <div className="border-t border-border pt-4">
+                        <div className=" pt-4">
                             <p className="max-w-2xl text-base text-text-secondary">
-                                Still here for now — finishing work, organising what comes next,
-                                and trying to build a deeper sense of context before setting off.
+                                Still here for now — finishing work and organising what comes next.
                             </p>
                         </div>
                     </div>
