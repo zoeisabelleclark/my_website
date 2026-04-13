@@ -45,10 +45,11 @@ export default function WaiutPage() {
                                 On the move.
                             </Heading>
                             <p className="max-w-2xl text-lg text-text-secondary">
-                                In four weeks I’ll be leaving work to travel and then head to
+                                In a few weeks I’ll be leaving work to travel and then head to
                                 language school in Central Asia. This page is a log of what I’m doing, preparing for, and
                                 paying attention to.
                             </p>
+
                         </Stack>
                     </div>
 

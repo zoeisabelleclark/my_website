@@ -18,7 +18,7 @@ export default function HomePage() {
 
                     <div className="md:col-span-7">
                         <Stack space="lg">
-                            <Badge >Writer / Researcher / Strategist</Badge>
+                            <Badge >Writer / Researcher / Developer</Badge>
                             <Heading as="h1" size="xl" offset className="max-w-4xl">
                                 Seeing the connections in everything.
                             </Heading>
@@ -26,7 +26,7 @@ export default function HomePage() {
                                 400 years ago Leibniz wrote that reality cannot be understood except through the interconnection of all things.
                             </p>
                             <p className="max-w-2xl text-lg text-text-secondary">
-                                I've found this to be true in practice. My work and experiences have led me to see the connections across disciplines – language, technology, politics, and culture. I believe that the best way to approach each, is not in isolation, but as part of a wider system.
+                                I've found this to be true. My experience has led me to see the connections across disciplines – language, technology, politics, and culture. I believe that the best way to approach each, is not in isolation, but as part of a wider system.
                             </p>
 
                         </Stack>
@@ -101,10 +101,10 @@ export default function HomePage() {
                                 I'm a researcher with a background in philosophy and computer science, interested in how different systems – technical, cultural, and political – interact.
                             </p>
                             <p className="max-w-2xl text-lg text-text-secondary">
-                                My work so far has focused heavily on technology, but I'm increasingly drawn to questions of language, geopolitics, and lived experience, particularly in Central Asia.
+                                My work so far has focused heavily on technology, but I'm increasingly drawn to questions of language, and geopolitics particularly in Eurasia (currently focused on Central Asia).
                             </p>
                             <p className="max-w-2xl text-lg text-text-secondary">
-                                I'm interested in the space between disciplines and in building an understanding of the world that is both analytical and grounded whilst still accounting for the wonder we see.
+                                I'm interested in the space between disciplines and in building a holistic understanding of the world.
                             </p>
                         </Stack>
                     </div>
