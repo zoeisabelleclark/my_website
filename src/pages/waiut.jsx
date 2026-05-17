@@ -10,24 +10,18 @@ export default function WaiutPage() {
     const entries = [
         {
             index: "01",
-            place: "Edinburgh",
-            stage: "Now",
-            note: "Leaving soon. Thinking about how language shapes the way we understand systems, culture, and place. ",
-        },
-        {
-            index: "02",
             place: "Caucasus",
-            stage: "Next",
+            stage: "Now",
             note: "Reading, exploring, reconnecting with writing code, planning routes, before arriving.",
         },
         {
-            index: "03",
+            index: "02",
             place: "Central Asia",
             stage: "Soon",
             note: "Main focus is language, then culture, politics, history, and everything else about this unbelievable part of the world.",
         },
         {
-            index: "04",
+            index: "03",
             place: "On the move",
             stage: "Later",
             note: "Who knows what comes next but I'm excited to see.",
